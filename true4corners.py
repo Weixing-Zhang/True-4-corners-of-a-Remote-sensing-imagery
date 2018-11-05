@@ -169,3 +169,24 @@ def true4corner(img_path):
             img_info[2],
             "unknown",
             img_info[3]]
+
+
+if __name__ == '__main__':
+    # ___________________________Arguments___________________________
+    import argparse
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(
+        description='the true four corners of a remote sensing imagery.')
+
+    parser.add_argument('-i', required=True,
+                        help='Directory of input raster dataset')
+
+    args = parser.parse_args()
+    
+    # direcotries of input and output rasters 
+    inputRaster_path = args.i        # Direcotry of input
+    
+    # _______________________________________________________________
+    
+    print true4corner(inputRaster_path)
+    
