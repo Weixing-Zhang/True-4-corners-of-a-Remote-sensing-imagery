@@ -1,6 +1,10 @@
 # True-4-corners-of-a-Remote-sensing-imagery
 Locate the true 4 corners of a remote sensing imagery
 
+NOTE:
+This is originally designed for processing WorldView-2 images.
+Please feel free to modify the script as needed. 
+
 Acknowlegement:
 <li>   @ Script Created on November 5th 2018</li>
 <li>   @ Author: Weixing Zhang</li>
