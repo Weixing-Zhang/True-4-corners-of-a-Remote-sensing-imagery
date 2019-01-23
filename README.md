@@ -23,16 +23,18 @@ Install gdal module
 (3) type "pip install xxxx.whl"
 
 How to use the script:
-(1) COMMANDLINE: 
-python true4corners.py C:\sample_NDVI.tif
+1. cmd: 
+>python true4corners.py C:\sample_NDVI.tif
 
-(2) import as a module
-
+2. import the script as a module
+'''
 import true4corners
 rs_img_path = r"C:\sample_NDVI.tif"
 info_image = true4corners.true4corner(rs_img_path) # is a list of image ID, x1, ... 
+'''
 
 OUTPUT FORMAT
+'''
 Image ID: 1030010084969100 
 x1: 72.1315
 y1: 142.123
@@ -45,3 +47,4 @@ y4:  140.512
 Date: 2018-09-10
 Image Cloud: 0%
 Sensor: WV02
+'''
