@@ -20,7 +20,7 @@ calculate the true four corners of a remote sensing imagery, which would exclude
 Install gdal module
 - Download gdal if you don't have it installed on your Machine (http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 - After downloaded gdal.whl, open your command prompt, cmd 
-  >cd /Downloads directory
+  >cd /Downloads 
 - cmd
   >pip install xxxx.whl
 
